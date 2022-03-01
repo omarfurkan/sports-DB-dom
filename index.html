@@ -10,16 +10,29 @@
 
 <div class="container w-100 m-auto">
     <div class="row">
-        <div class="col-md-6 text-center">
+        <div class="col-lg-6 col-md-6 text-center">
             <h1>left side</h1>
             <div  class="d-flex">
                 <input id="search-box" class="form-control me-2" type="search" placeholder="search" aria-label="Search">
                 <button onclick="allPlayers()" id="search-btn" class="btn btn-outline-success" type="submit">Search</button>
-              </div>
+            </div>
+              <img id="spinner" src="./img/Gear.gif" alt="" srcset="">
+            <div id="player-container" class="player-container">
+
+            </div>
         </div>
 
-        <div class="col-md-6 text-center">
+
+
+        <div class="col-lg-6 col-md-6 text-center">
             <h1>right side</h1>
+            <div class="img-container">
+                <img id="female"  class="w-75" src="./img/female.png" alt="">
+                <img id="male" class="w-75" src="./img/male.png" alt="">
+            </div>
+            <div id="details-container" class="details-container">
+
+            </div>
         </div>
     </div>
 </div>
